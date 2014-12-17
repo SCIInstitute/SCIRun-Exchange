@@ -72,12 +72,13 @@ OVERLAP = length(DATAO)/length(DATAI)*100;
 SDATA = sort(DATA);
 
 
-% Coompute maximum voltage
+% Compute maximum voltage
 I = isnan(VOLTAGE); VOLTAGE(I) = 0;
 V = max(VOLTAGE);
 
 THRESHOLD = 0.95;
 
+% calculate voltage and energy needed to meet threshold
 V5 = (500)/SDATA(ceil((1-THRESHOLD)*length(SDATA)))*V;
 V5u = (500)/SDATA(ceil((1-THRESHOLD)*length(DATAI)))*V;
 V5_30 = 100*length(find(SDATA*(V5/V) > 30*100))/length(SDATA);
@@ -86,7 +87,7 @@ E5 = 0.5*130e-6*(V5)^2;
 
 SSDATA = SDATA/500*V5;
 
-
+% make histogram plot
 figure(1)
 SPACING = 1.5;
 [B,X] = hist(SSDATA/100,[0:SPACING:80]); clf; B=B/length(SDATA)*100; 
@@ -109,6 +110,7 @@ ylim = get(gca,'YLim');
 text(0.2*xlim(2),0.7*ylim(2),s,'Fontsize',16);
 
 
+% make string of statistics of the simulation
 info = [info sprintf('Statistics for full heart:\n')];
 info = [info sprintf('Voltage needed for 95%% of tissue over 5V/cm       : %5.4g V\n',V5)];
 info = [info sprintf('  Amount of tissue over 30V/cm for this voltage    : %5.4g %%\n',V5_30)];
@@ -120,7 +122,7 @@ info = [info sprintf('Number of elements: %d \n',NUMELEM)];
 info = [info sprintf('Number of iterations: %d\n',niter)];
 info = [info sprintf('Residue of solve: %5.4e\n',res)];
 
-
+% stirng of statistics without descriptors.  For loading and processing
 sinfo = [sinfo sprintf('%6.5g %6.5g %6.5g %6.5g %6.5g %6.5g %d %d %5.4e %%p', V5, V5_30, V5_60, E5, V5u, OVERLAP, NUMELEM,niter,res)];
 
 o1 = V5;

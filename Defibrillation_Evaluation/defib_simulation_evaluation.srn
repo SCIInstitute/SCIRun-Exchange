@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE network PUBLIC "-//SCIRun/Network DTD" "network.dtd">
-<network version="v4.7" netversion="2" name="{Main}" bbox="{13 33 1901 3124}" creationDate="{Fri Sep 12 2014}" creationTime="{00:57:17}" geometry="{742x743+680+0}">
+<network version="v4.7" netversion="1" name="{Main}" bbox="{13 33 1901 3124}" creationDate="{Fri Sep 12 2014}" creationTime="{01:18:31}" geometry="{742x743+680+0}">
   <note>{}</note>
   <modules>
     <module id="m1" package="SCIRun" category="DataIO" name="ReadBundle" version="1.0">
@@ -344,7 +344,7 @@ REFINEMENT REGION}</note>
     <module id="m31" package="SCIRun" category="DataIO" name="ReadField" version="1.0">
       <position x="571" y="70"/>
       <note position="{def}" color="{white}">{READ SEGEMENTATION}</note>
-      <var name="filename" val="{../../SCIRunData/torso-defib/torso_segmentation_si.fld}" filename="yes" substitute="yes"/>
+      <var name="filename" val="{/Users/jess/software/SCIRunData/torso-defib/torso_segmentation_si.fld}" filename="yes" substitute="yes"/>
       <var name="from-env" val="{SEGFILE}" substitute="no"/>
       <var name="filetype" val="{SCIRun Field File (*.fld)}" substitute="no"/>
       <var name="filename_base" val="{torso_segmentation_si.fld}" substitute="no"/>
@@ -459,150 +459,6 @@ REFINEMENT REGION}</note>
     </module>
     <module id="m39" package="SCIRun" category="Render" name="ViewScene" version="1.0">
       <position x="472" y="1518"/>
-      <var name="ViewWindow_0-view-eyep-x" val="{0.5549160227634332}" substitute="no"/>
-      <var name="ViewWindow_0-view-eyep-y" val="{-1.4937992939551503}" substitute="no"/>
-      <var name="ViewWindow_0-view-eyep-z" val="{0.7211184064694206}" substitute="no"/>
-      <var name="ViewWindow_0-view-lookat-x" val="{-0.00012299418449401855}" substitute="no"/>
-      <var name="ViewWindow_0-view-lookat-y" val="{0.0020909979939460754}" substitute="no"/>
-      <var name="ViewWindow_0-view-lookat-z" val="{0.0024740025401115417}" substitute="no"/>
-      <var name="ViewWindow_0-view-up-x" val="{-0.1583402092280108}" substitute="no"/>
-      <var name="ViewWindow_0-view-up-y" val="{0.379220842531124}" substitute="no"/>
-      <var name="ViewWindow_0-view-up-z" val="{0.9116577925579391}" substitute="no"/>
-      <var name="ViewWindow_0-view-fov" val="{20.0}" substitute="no"/>
-      <var name="ViewWindow_0-homeview-eyep-x" val="{2.1}" substitute="no"/>
-      <var name="ViewWindow_0-homeview-eyep-y" val="{1.6}" substitute="no"/>
-      <var name="ViewWindow_0-homeview-eyep-z" val="{11.5}" substitute="no"/>
-      <var name="ViewWindow_0-homeview-lookat-x" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-homeview-lookat-y" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-homeview-lookat-z" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-homeview-up-x" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-homeview-up-y" val="{1.0}" substitute="no"/>
-      <var name="ViewWindow_0-homeview-up-z" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-homeview-fov" val="{20.0}" substitute="no"/>
-      <var name="ViewWindow_0-sr" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-do_stereo" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-ortho-view" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-trackViewWindow0" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-lock-view-window" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-raxes" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-ambient-scale" val="{0.2}" substitute="no"/>
-      <var name="ViewWindow_0-diffuse-scale" val="{1.0}" substitute="no"/>
-      <var name="ViewWindow_0-specular-scale" val="{0.4}" substitute="no"/>
-      <var name="ViewWindow_0-emission-scale" val="{1.0}" substitute="no"/>
-      <var name="ViewWindow_0-shininess-scale" val="{1.0}" substitute="no"/>
-      <var name="ViewWindow_0-polygon-offset-factor" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-polygon-offset-units" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-point-size" val="{1.0}" substitute="no"/>
-      <var name="ViewWindow_0-line-width" val="{1.0}" substitute="no"/>
-      <var name="ViewWindow_0-text-offset" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-sbase" val="{0.4}" substitute="no"/>
-      <var name="ViewWindow_0-bgcolor-r" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-bgcolor-g" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-bgcolor-b" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-fogusebg" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-fogcolor-r" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-fogcolor-g" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-fogcolor-b" val="{1.0}" substitute="no"/>
-      <var name="ViewWindow_0-fog-start" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-fog-end" val="{0.714265}" substitute="no"/>
-      <var name="ViewWindow_0-fog-visibleonly" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-inertia_loop_count" val="{45}" substitute="no"/>
-      <var name="ViewWindow_0-inertia_x" val="{1.0}" substitute="no"/>
-      <var name="ViewWindow_0-inertia_y" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-currentvisual" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-autoav" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-caxes" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-scalebar" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-scalebar-unit" val="{mm}" substitute="no"/>
-      <var name="ViewWindow_0-scalebar-length" val="{1.0}" substitute="no"/>
-      <var name="ViewWindow_0-scalebar-height" val="{1.0}" substitute="no"/>
-      <var name="ViewWindow_0-scalebar-multiplier" val="{1.0}" substitute="no"/>
-      <var name="ViewWindow_0-scalebar-color-r" val="{1.0}" substitute="no"/>
-      <var name="ViewWindow_0-scalebar-color-g" val="{1.0}" substitute="no"/>
-      <var name="ViewWindow_0-scalebar-color-b" val="{1.0}" substitute="no"/>
-      <var name="ViewWindow_0-scalebar-nticks" val="{11}" substitute="no"/>
-      <var name="ViewWindow_0-scalebar-fontsize" val="{2}" substitute="no"/>
-      <var name="ViewWindow_0-scalebar-linesize" val="{1.0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-num" val="{6}" substitute="no"/>
-      <var name="ViewWindow_0-clip-visible" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-selected" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-clip-visible-1" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-frame-1" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-reverse-1" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-x-1" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-y-1" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-z-1" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-d-1" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-visible-2" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-frame-2" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-reverse-2" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-x-2" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-y-2" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-z-2" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-d-2" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-visible-3" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-frame-3" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-reverse-3" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-x-3" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-y-3" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-z-3" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-d-3" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-visible-4" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-frame-4" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-reverse-4" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-x-4" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-y-4" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-z-4" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-d-4" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-visible-5" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-frame-5" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-reverse-5" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-x-5" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-y-5" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-z-5" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-d-5" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-visible-6" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-frame-6" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-reverse-6" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-x-6" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-y-6" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-z-6" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-d-6" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-global-light0" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-global-light1" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-global-light2" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-global-light3" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-lightColors" val="{{1.0 1.0 1.0} {1.0 1.0 1.0} {1.0 1.0 1.0} {1.0 1.0 1.0}}" substitute="no"/>
-      <var name="ViewWindow_0-lightVectors" val="{{ 0 0 1 } { 0 0 1 } { 0 0 1 } { 0 0 1 }}" substitute="no"/>
-      <var name="ViewWindow_0-global-light" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-global-fog" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-global-debug" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-global-clip" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-global-cull" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-global-dl" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-global-type" val="{Gouraud}" substitute="no"/>
-      <var name="ViewWindow_0-global-movieFrame" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-global-movieName" val="{./movie.%04d}" substitute="no"/>
-      <var name="ViewWindow_0-global-movie" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-global-sync_with_execute" val="{0}" substitute="no"/>
-      <var name="&quot;ViewWindow_0-Faces (1)&quot;" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-0-useglobal" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-0-type" val="{Gouraud}" substitute="no"/>
-      <var name="ViewWindow_0-0-debug" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-0-clip" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-0-cull" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-0-dl" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-0-fog" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-0-light" val="{1}" substitute="no"/>
-      <var name="&quot;ViewWindow_0-Transparent Faces (2)&quot;" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-1-useglobal" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-1-type" val="{Gouraud}" substitute="no"/>
-      <var name="ViewWindow_0-1-debug" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-1-clip" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-1-cull" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-1-dl" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-1-fog" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-1-light" val="{1}" substitute="no"/>
     </module>
     <module id="m40" package="SCIRun" category="MiscField" name="ReportFieldInfo" version="1.0">
       <position x="218" y="1266"/>
@@ -720,141 +576,6 @@ REFINEMENT REGION}</note>
     </module>
     <module id="m46" package="SCIRun" category="Render" name="ViewScene" version="1.0">
       <position x="379" y="1192"/>
-      <var name="ViewWindow_0-view-eyep-x" val="{0.42632650790449145}" substitute="no"/>
-      <var name="ViewWindow_0-view-eyep-y" val="{0.39708229248243654}" substitute="no"/>
-      <var name="ViewWindow_0-view-eyep-z" val="{-0.2048966762118623}" substitute="no"/>
-      <var name="ViewWindow_0-view-lookat-x" val="{0.021052273456007242}" substitute="no"/>
-      <var name="ViewWindow_0-view-lookat-y" val="{-0.025168051244691014}" substitute="no"/>
-      <var name="ViewWindow_0-view-lookat-z" val="{0.021034375298768282}" substitute="no"/>
-      <var name="ViewWindow_0-view-up-x" val="{-0.440864343998915}" substitute="no"/>
-      <var name="ViewWindow_0-view-up-y" val="{-0.05617811933655073}" substitute="no"/>
-      <var name="ViewWindow_0-view-up-z" val="{-0.895813958977094}" substitute="no"/>
-      <var name="ViewWindow_0-view-fov" val="{20.0}" substitute="no"/>
-      <var name="ViewWindow_0-homeview-eyep-x" val="{2.1}" substitute="no"/>
-      <var name="ViewWindow_0-homeview-eyep-y" val="{1.6}" substitute="no"/>
-      <var name="ViewWindow_0-homeview-eyep-z" val="{11.5}" substitute="no"/>
-      <var name="ViewWindow_0-homeview-lookat-x" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-homeview-lookat-y" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-homeview-lookat-z" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-homeview-up-x" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-homeview-up-y" val="{1.0}" substitute="no"/>
-      <var name="ViewWindow_0-homeview-up-z" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-homeview-fov" val="{20.0}" substitute="no"/>
-      <var name="ViewWindow_0-sr" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-do_stereo" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-ortho-view" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-trackViewWindow0" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-lock-view-window" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-raxes" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-ambient-scale" val="{0.2}" substitute="no"/>
-      <var name="ViewWindow_0-diffuse-scale" val="{1.0}" substitute="no"/>
-      <var name="ViewWindow_0-specular-scale" val="{0.4}" substitute="no"/>
-      <var name="ViewWindow_0-emission-scale" val="{1.0}" substitute="no"/>
-      <var name="ViewWindow_0-shininess-scale" val="{1.0}" substitute="no"/>
-      <var name="ViewWindow_0-polygon-offset-factor" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-polygon-offset-units" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-point-size" val="{1.0}" substitute="no"/>
-      <var name="ViewWindow_0-line-width" val="{1.0}" substitute="no"/>
-      <var name="ViewWindow_0-text-offset" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-sbase" val="{0.4}" substitute="no"/>
-      <var name="ViewWindow_0-bgcolor-r" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-bgcolor-g" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-bgcolor-b" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-fogusebg" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-fogcolor-r" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-fogcolor-g" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-fogcolor-b" val="{1.0}" substitute="no"/>
-      <var name="ViewWindow_0-fog-start" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-fog-end" val="{0.714265}" substitute="no"/>
-      <var name="ViewWindow_0-fog-visibleonly" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-inertia_loop_count" val="{159}" substitute="no"/>
-      <var name="ViewWindow_0-inertia_x" val="{0.11774294248549916}" substitute="no"/>
-      <var name="ViewWindow_0-inertia_y" val="{-0.8522191769571467}" substitute="no"/>
-      <var name="ViewWindow_0-currentvisual" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-autoav" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-caxes" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-scalebar" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-scalebar-unit" val="{mm}" substitute="no"/>
-      <var name="ViewWindow_0-scalebar-length" val="{1.0}" substitute="no"/>
-      <var name="ViewWindow_0-scalebar-height" val="{1.0}" substitute="no"/>
-      <var name="ViewWindow_0-scalebar-multiplier" val="{1.0}" substitute="no"/>
-      <var name="ViewWindow_0-scalebar-color-r" val="{1.0}" substitute="no"/>
-      <var name="ViewWindow_0-scalebar-color-g" val="{1.0}" substitute="no"/>
-      <var name="ViewWindow_0-scalebar-color-b" val="{1.0}" substitute="no"/>
-      <var name="ViewWindow_0-scalebar-nticks" val="{11}" substitute="no"/>
-      <var name="ViewWindow_0-scalebar-fontsize" val="{2}" substitute="no"/>
-      <var name="ViewWindow_0-scalebar-linesize" val="{1.0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-num" val="{6}" substitute="no"/>
-      <var name="ViewWindow_0-clip-visible" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-selected" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-clip-visible-1" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-frame-1" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-reverse-1" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-x-1" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-y-1" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-z-1" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-d-1" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-visible-2" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-frame-2" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-reverse-2" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-x-2" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-y-2" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-z-2" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-d-2" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-visible-3" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-frame-3" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-reverse-3" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-x-3" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-y-3" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-z-3" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-d-3" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-visible-4" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-frame-4" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-reverse-4" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-x-4" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-y-4" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-z-4" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-d-4" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-visible-5" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-frame-5" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-reverse-5" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-x-5" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-y-5" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-z-5" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-d-5" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-visible-6" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-frame-6" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-reverse-6" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-x-6" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-y-6" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-z-6" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-clip-normal-d-6" val="{0.0}" substitute="no"/>
-      <var name="ViewWindow_0-global-light0" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-global-light1" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-global-light2" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-global-light3" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-lightColors" val="{{1.0 1.0 1.0} {1.0 1.0 1.0} {1.0 1.0 1.0} {1.0 1.0 1.0}}" substitute="no"/>
-      <var name="ViewWindow_0-lightVectors" val="{{ 0 0 1 } { 0 0 1 } { 0 0 1 } { 0 0 1 }}" substitute="no"/>
-      <var name="ViewWindow_0-global-light" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-global-fog" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-global-debug" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-global-clip" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-global-cull" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-global-dl" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-global-type" val="{Gouraud}" substitute="no"/>
-      <var name="ViewWindow_0-global-movieFrame" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-global-movieName" val="{./movie.%04d}" substitute="no"/>
-      <var name="ViewWindow_0-global-movie" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-global-sync_with_execute" val="{0}" substitute="no"/>
-      <var name="&quot;ViewWindow_0-Faces (1)&quot;" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-0-useglobal" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-0-type" val="{Gouraud}" substitute="no"/>
-      <var name="ViewWindow_0-0-debug" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-0-clip" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-0-cull" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-0-dl" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-0-fog" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-0-light" val="{1}" substitute="no"/>
     </module>
     <module id="m47" package="SCIRun" category="Visualization" name="ShowField" version="1.0">
       <position x="1615" y="2359"/>
@@ -1011,6 +732,7 @@ REFINEMENT REGION}</note>
     </module>
     <module id="m65" package="SCIRun" category="DataIO" name="WriteBundle" version="1.0">
       <position x="881" y="3061"/>
+      <note position="{s}" color="{white}">{Save bundle in same directory as input.}</note>
       <var name="filename" val="{/Users/jess/software/trunk/SCIRunData/torso-defib/electrode_bundle_simulation.bdl}" filename="yes" substitute="yes"/>
       <var name="filetype" val="{Binary}" substitute="no"/>
       <var name="confirm" val="{0}" substitute="no"/>
@@ -1019,6 +741,7 @@ REFINEMENT REGION}</note>
     </module>
     <module id="m66" package="SCIRun" category="DataIO" name="WriteString" version="1.0">
       <position x="1087" y="3074"/>
+      <note position="{s}" color="{white}">{save string of statistics}</note>
       <var name="filename" val="{/Users/jess/software/trunk/SCIRun-Exchange/Bash_scripts/}" filename="yes" substitute="yes"/>
       <var name="filetype" val="{Binary}" substitute="no"/>
       <var name="confirm" val="{0}" substitute="no"/>
@@ -1031,6 +754,7 @@ REFINEMENT REGION}</note>
     </module>
     <module id="m68" package="SCIRun" category="DataIO" name="WriteString" version="1.0">
       <position x="1280" y="3071"/>
+      <note position="{s}" color="{white}">{save string of statistics in list form}</note>
       <var name="filename" val="{/Users/jess/software/trunk/SCIRun-Exchange/Bash_scripts/}" filename="yes" substitute="yes"/>
       <var name="filetype" val="{Binary}" substitute="no"/>
       <var name="confirm" val="{0}" substitute="no"/>

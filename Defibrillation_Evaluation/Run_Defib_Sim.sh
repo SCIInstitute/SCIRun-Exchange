@@ -1,7 +1,15 @@
 #!/bin/bash
 
 # This script will run the defib simulation on all the bdl files in a provided
-# directory. 
+# directory. This script is meant to run with the
+# SCIRun_Networks/defib_simulation_evaluation.srn network included in
+# this exchange repository.  
+
+# The script was written to run on OS X 10.6, but will likely run on
+# other versions of OS X and linux.  You will need to ensure that
+# SCIrun is installed properly and added to your path environment
+# variable.
+#
 # inputs: 
 # directory with bdl files to use in network
 # segmentation file to use in network
@@ -10,32 +18,34 @@
 # example to use script:
 # ./Run_Defib_Sim.sh ../../SCIRunData/torso-defib/ ../../SCIRunData/torso-defib/torso_segmentation_si.fld
 
+# check for inputs
 if [ -z $2 ]
 then 
 echo need at least two inputs
 exit
 fi
 
-seg=$2
+# list all files in input directory
 bdlfile=($(ls -1 $1/*.bdl))
 
+#run all bdl files through scirun network
 for l in ${bdlfile[@]}
 do
 
-echo file 
+# print out file to run
+echo -e "\n running file $l \n"
 
-echo $l
-
+# run scirun network output files save automatically
 scirun -E ../SCIRun_Networks/defib_simulation_evaluation.srn +BDLFILE=$l +SEGFILE=$2
 
 done
 
-
+# check for result directory, move ouput files to that directory.
 if [ $3 ]
 then
 
-resdir=$3
-echo copying results to $resdir
+
+echo copying results to $3
 
 mv $1/*simulation.bdl $3
 mv $1/*simulation.txt $3
