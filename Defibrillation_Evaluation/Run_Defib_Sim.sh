@@ -2,7 +2,7 @@
 
 # This script will run the defib simulation on all the bdl files in a provided
 # directory. This script is meant to run with the
-# SCIRun_Networks/defib_simulation_evaluation.srn network included in
+# defib_simulation_evaluation.srn network included in
 # this exchange repository.  
 
 # The script was written to run on OS X 10.6, but will likely run on
@@ -45,7 +45,7 @@ if [ $3 ]
 then
 
 
-echo copying results to $3
+echo moving results to $3
 
 mv $1/*simulation.bdl $3
 mv $1/*simulation.txt $3
