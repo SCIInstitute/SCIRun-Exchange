@@ -2,10 +2,6 @@
 %		This script executes two functions to calcualte regularization
 %		matrices.
 %		
-%		surface Laplacian calculates an approximation of the surface first
-%		and second derivative operators and then computes a Laplacian
-%		matrix from the former.
-%
 %		3D Laplacian computes a similar set of matrices, although in this
 %		case the operators take into account euclidean distances instead of
 %		the geometry provided by the mesh.
@@ -18,21 +14,30 @@
 %									surface triangles.
 %
 
-
-%% surface Laplacian
-	[D,Dtan,H,Htan] = meshsurfdiffhessmatrix(heart,meshnormalvectors(heart));
-	Ltan=LaplacianMatrixFromHessianMatrix(Htan);
+%% INPUT
+	heart = field1;
+	o1 = sigma;
 
 
 %% Estimate the 3D laplacian
 
-[D] = PairwiseDistance(heart.node);
-
-% choose sigma
-sigma = (sort(D));
-sigma = max(sigma,[],2);
-sigma = sigma(3);
-
+% compute weight function
 [wghFcn] = invExplonentialWeight(heart, sigma, 0);
 
-[cDf cHf] = meshVolDiffHessMatrix(heart,wghFcn);
+% compute gradient and hessian
+[cDf, cHf] = meshVolDiffHessMatrix(heart,wghFcn);
+
+% compute weights
+M = max(size(heart.node));
+W = zeros(M);
+for ii = 1:M
+	
+	W(:,ii) = wghFcn(ii);
+end
+
+
+%% OUTPUT
+	o4 = W;			% weight functions (to plot as validation
+	
+	o2 = cDf;		% volumetric gradient
+	o3 = cHf;		% volumetric hessian
