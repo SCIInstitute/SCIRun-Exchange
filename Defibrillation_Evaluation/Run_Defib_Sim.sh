@@ -16,7 +16,7 @@
 # (optional) path to directory to move results 
 #
 # example to use script:
-# ./Run_Defib_Sim.sh ../../SCIRunData/torso-defib/ ../../SCIRunData/torso-defib/torso_segmentation_si.fld
+# ./Run_Defib_Sim.sh ../../trunk/SCIRunData/torso-defib/ ../../trunk/SCIRunData/torso-defib/torso_segmentation_si.fld
 
 # check for inputs
 if [ -z $2 ]
@@ -36,7 +36,7 @@ do
 echo -e "\n running file $l \n"
 
 # run scirun network output files save automatically
-scirun -E ../SCIRun_Networks/defib_simulation_evaluation.srn +BDLFILE=$l +SEGFILE=$2
+scirun -E defib_simulation_evaluation.srn +BDLFILE=$l +SEGFILE=$2
 
 done
 

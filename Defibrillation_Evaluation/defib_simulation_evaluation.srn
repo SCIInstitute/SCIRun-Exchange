@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE network PUBLIC "-//SCIRun/Network DTD" "network.dtd">
-<network version="v4.7" netversion="1" name="{Main}" bbox="{13 33 1901 3124}" creationDate="{Fri Sep 12 2014}" creationTime="{01:18:31}" geometry="{742x743+680+0}">
+<network version="v4.7" netversion="2" name="{Main}" bbox="{13 33 1901 3124}" creationDate="{Fri Mar 06 2015}" creationTime="{14:53:57}" geometry="{1013x793+224+0}">
   <note>{}</note>
   <modules>
     <module id="m1" package="SCIRun" category="DataIO" name="ReadBundle" version="1.0">
@@ -65,10 +65,10 @@ DIMENSIONS OF MODEL}</note>
       <note position="{def}" color="{white}">{SOLVE POTENTIALS}</note>
       <var name="target_error" val="{1e-10}" substitute="no"/>
       <var name="orig_error" val="{1.0}" substitute="no"/>
-      <var name="current_error" val="{9.92307423613421e-11}" substitute="no"/>
+      <var name="current_error" val="{2.614508713542468e-5}" substitute="no"/>
       <var name="method" val="{Conjugate Gradient &amp; Precond. (SCI)}" substitute="no"/>
       <var name="precond" val="{jacobi}" substitute="no"/>
-      <var name="iteration" val="{700}" substitute="no"/>
+      <var name="iteration" val="{30}" substitute="no"/>
       <var name="maxiter" val="{2081}" substitute="no"/>
       <var name="use_previous_soln" val="{0}" substitute="no"/>
       <var name="emit_partial" val="{0}" substitute="no"/>
@@ -344,13 +344,13 @@ REFINEMENT REGION}</note>
     <module id="m31" package="SCIRun" category="DataIO" name="ReadField" version="1.0">
       <position x="571" y="70"/>
       <note position="{def}" color="{white}">{READ SEGEMENTATION}</note>
-      <var name="filename" val="{/Users/jess/software/SCIRunData/torso-defib/torso_segmentation_si.fld}" filename="yes" substitute="yes"/>
+      <var name="filename" val="{/Users/jess/software/trunk/SCIRunData/torso-defib/torso_segmentation_si.fld}" filename="yes" substitute="yes"/>
       <var name="from-env" val="{SEGFILE}" substitute="no"/>
       <var name="filetype" val="{SCIRun Field File (*.fld)}" substitute="no"/>
       <var name="filename_base" val="{torso_segmentation_si.fld}" substitute="no"/>
       <var name="number_in_series" val="{0}" substitute="no"/>
       <var name="delay" val="{0}" substitute="no"/>
-      <var name="ui_geometry" val="{464x354+620+361}" substitute="no"/>
+      <var name="ui_geometry" val="{609x370+620+361}" substitute="no"/>
     </module>
     <module id="m32" package="SCIRun" category="Bundle" name="InsertFieldsIntoBundle" version="1.0">
       <position x="659" y="396"/>
@@ -762,7 +762,7 @@ REFINEMENT REGION}</note>
     </module>
     <module id="m69" package="SCIRun" category="String" name="ReportStringInfo" version="1.0">
       <position x="1025" y="3000"/>
-      <var name="inputstring" val="{../../SCIRunData/torso-defib//electrode_bundle_simulation.bdl}" substitute="no"/>
+      <var name="inputstring" val="{/Users/jess/software/trunk/SCIRunData/torso-defib/electrode_bundle_simulation.bdl}" substitute="no"/>
       <var name="ui_geometry" val="{665x378+0+44}" substitute="no"/>
     </module>
   </modules>
