@@ -4,7 +4,7 @@
 <networkFile class_id="0" tracking_level="0" version="3">
 	<networkInfo class_id="1" tracking_level="0" version="0">
 		<modules class_id="2" tracking_level="0" version="0">
-			<count>56</count>
+			<count>55</count>
 			<item_version>0</item_version>
 			<item class_id="3" tracking_level="0" version="0">
 				<first>AddKnownsToLinearSystem:0</first>
@@ -3453,133 +3453,9 @@ stringOutput2 = sinfo
 					</state>
 				</second>
 			</item>
-			<item>
-				<first>ViewScene:0</first>
-				<second>
-					<module>
-						<package_name_>SCIRun</package_name_>
-						<category_name_>Render</category_name_>
-						<module_name_>ViewScene</module_name_>
-					</module>
-					<state>
-						<stateMap>
-							<count>9</count>
-							<item_version>0</item_version>
-							<item>
-								<first>
-									<name>BackgroundColor</name>
-								</first>
-								<second>
-									<name>BackgroundColor</name>
-									<value>
-										<which>2</which>
-										<value>Color(0,0,0)</value>
-									</value>
-								</second>
-							</item>
-							<item>
-								<first>
-									<name>ScaleBarFontSize</name>
-								</first>
-								<second>
-									<name>ScaleBarFontSize</name>
-									<value>
-										<which>0</which>
-										<value>8</value>
-									</value>
-								</second>
-							</item>
-							<item>
-								<first>
-									<name>ScaleBarHeight</name>
-								</first>
-								<second>
-									<name>ScaleBarHeight</name>
-									<value>
-										<which>1</which>
-										<value>1.00000000000000000e+00</value>
-									</value>
-								</second>
-							</item>
-							<item>
-								<first>
-									<name>ScaleBarLength</name>
-								</first>
-								<second>
-									<name>ScaleBarLength</name>
-									<value>
-										<which>1</which>
-										<value>1.00000000000000000e+00</value>
-									</value>
-								</second>
-							</item>
-							<item>
-								<first>
-									<name>ScaleBarLineWidth</name>
-								</first>
-								<second>
-									<name>ScaleBarLineWidth</name>
-									<value>
-										<which>1</which>
-										<value>1.00000000000000000e+00</value>
-									</value>
-								</second>
-							</item>
-							<item>
-								<first>
-									<name>ScaleBarMultiplier</name>
-								</first>
-								<second>
-									<name>ScaleBarMultiplier</name>
-									<value>
-										<which>1</which>
-										<value>1.00000000000000000e+00</value>
-									</value>
-								</second>
-							</item>
-							<item>
-								<first>
-									<name>ScaleBarNumTicks</name>
-								</first>
-								<second>
-									<name>ScaleBarNumTicks</name>
-									<value>
-										<which>0</which>
-										<value>11</value>
-									</value>
-								</second>
-							</item>
-							<item>
-								<first>
-									<name>ScaleBarUnitValue</name>
-								</first>
-								<second>
-									<name>ScaleBarUnitValue</name>
-									<value>
-										<which>3</which>
-										<value>1</value>
-									</value>
-								</second>
-							</item>
-							<item>
-								<first>
-									<name>ShowScaleBar</name>
-								</first>
-								<second>
-									<name>ShowScaleBar</name>
-									<value>
-										<which>3</which>
-										<value>0</value>
-									</value>
-								</second>
-							</item>
-						</stateMap>
-					</state>
-				</second>
-			</item>
 		</modules>
 		<connections class_id="12" tracking_level="0" version="0">
-			<count>84</count>
+			<count>82</count>
 			<item_version>0</item_version>
 			<item class_id="13" tracking_level="0" version="0">
 				<moduleId1_>AddKnownsToLinearSystem:0</moduleId1_>
@@ -4554,30 +4430,6 @@ stringOutput2 = sinfo
 				</port2_>
 			</item>
 			<item>
-				<moduleId1_>ShowField:0</moduleId1_>
-				<port1_>
-					<name>SceneGraph</name>
-					<id>0</id>
-				</port1_>
-				<moduleId2_>ViewScene:0</moduleId2_>
-				<port2_>
-					<name>GeneralGeom</name>
-					<id>0</id>
-				</port2_>
-			</item>
-			<item>
-				<moduleId1_>ShowField:1</moduleId1_>
-				<port1_>
-					<name>SceneGraph</name>
-					<id>0</id>
-				</port1_>
-				<moduleId2_>ViewScene:0</moduleId2_>
-				<port2_>
-					<name>GeneralGeom</name>
-					<id>1</id>
-				</port2_>
-			</item>
-			<item>
 				<moduleId1_>SolveLinearSystem:0</moduleId1_>
 				<port1_>
 					<name>Solution</name>
@@ -4592,7 +4444,7 @@ stringOutput2 = sinfo
 		</connections>
 	</networkInfo>
 	<modulePositions class_id="15" tracking_level="0" version="0">
-		<count>56</count>
+		<count>55</count>
 		<item_version>0</item_version>
 		<item class_id="16" tracking_level="0" version="0">
 			<first>AddKnownsToLinearSystem:0</first>
@@ -4977,13 +4829,6 @@ stringOutput2 = sinfo
 			<second>
 				<first>-4.35000000000000000e+02</first>
 				<second>1.63100000000000000e+03</second>
-			</second>
-		</item>
-		<item>
-			<first>ViewScene:0</first>
-			<second>
-				<first>1.45400000000000000e+03</first>
-				<second>2.71400000000000000e+03</second>
 			</second>
 		</item>
 	</modulePositions>
@@ -5493,7 +5338,7 @@ FOR POTENTIALS</noteText>
 		<item_version>0</item_version>
 	</connectionNotes>
 	<moduleTags class_id="21" tracking_level="0" version="0">
-		<count>56</count>
+		<count>55</count>
 		<item_version>0</item_version>
 		<item class_id="22" tracking_level="0" version="0">
 			<first>AddKnownsToLinearSystem:0</first>
@@ -5713,10 +5558,6 @@ FOR POTENTIALS</noteText>
 		</item>
 		<item>
 			<first>SolveLinearSystem:0</first>
-			<second>0</second>
-		</item>
-		<item>
-			<first>ViewScene:0</first>
 			<second>0</second>
 		</item>
 	</moduleTags>
