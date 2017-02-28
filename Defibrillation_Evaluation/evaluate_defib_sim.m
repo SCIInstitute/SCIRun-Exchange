@@ -1,4 +1,4 @@
-function [o1 o2 info sinfo] = evaluate_defib_sim(VOLTAGE,NUMELEM,niter,res,field1,field2,string1,string2, string3)
+You can function [o1 o2 info sinfo] = evaluate_defib_sim(VOLTAGE,NUMELEM,niter,res,field1,field2,string1,string2, string3)
 %% evaluate_defib_sim.m
 %
 % This function calculates some of the statistics of the defibrillation
@@ -13,20 +13,20 @@ function [o1 o2 info sinfo] = evaluate_defib_sim(VOLTAGE,NUMELEM,niter,res,field
 % inputs:
 %      VOLTAGE = voltage vector of the sources.  This should be a matrix with
 %      the same number of elements as number of source electrodes.
-%      NUMELEM = number of elements in the geometry of interest, ie, the
-%      heart.
+%      NUMELEM = number of elements in the total geometry, ie, the torso.
 %      niter = number of iterations to acheive potential solution, from the
 %      SolveLinearSystem module.
 %      res = residual of the potential solution, from the SolveLinearSystem
 %      module.
-%      field1 = field of the region of interest (the heart tissue) with the
-%      gradient magnitude of the potential field as the field data.
-%      field2 = field of the region of interest (the heart tissue) with
-%      label mask of the source geometrys that intersect the region.  If
-%      there is no overlap of the source electrods then this field will be
-%      all zeros.  If there is some overlap, there should be non-zero
-%      values.  evaluating overlap is import because it can effect the
-%      threshold calculations.
+%      field1 = electric field strength. field of the region of interest
+%      (the heart tissue) with the gradient magnitude of the potential field
+%      as the field data.
+%      field2 = electrode overlap field. field of the region of interest
+%      (the heart tissue) with label mask of the source geometrys that
+%      intersect the region.  If there is no overlap of the source electrodes
+%      then this field will be all zeros.  If there is some overlap, there
+%      should be non-zero values.  evaluating overlap is import because it
+%      can effect the threshold calculations.
 %      string1 = Name for the ICD configuration
 %      string2 = Name of the conductivity configuration
 %      string3 = string of the source permutivities, ie, ehich source is

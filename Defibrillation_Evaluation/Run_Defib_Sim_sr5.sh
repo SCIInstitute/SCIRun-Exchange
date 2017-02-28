@@ -31,29 +31,23 @@ bdlfile=($(ls -1 $1/*.bdl))
 #run all bdl files through scirun network
 for l in ${bdlfile[@]}
 do
-
 # print out file to run
 echo -e "\n running file $l \n"
-
 export BDLFILE=$l 
 export SEGFILE=$2
 
 # run scirun network output files save automatically
-~/software/SCIRun_mine/bin/SCIRun/SCIRun_test -E  defib_simulation_evaluation.srn5 
-
+~/software/SCIRun_mine/bin/SCIRun/SCIRun_test -E  defib_simulation_evaluation_II.srn5
 done
 
 # check for result directory, move ouput files to that directory.
 if [ $3 ]
 then
-
-
 echo moving results to $3
 
 mv $1/*simulation.bdl $3
 mv $1/*simulation.txt $3
 mv $1/*simulation_list.txt $3
-
 fi
 
 

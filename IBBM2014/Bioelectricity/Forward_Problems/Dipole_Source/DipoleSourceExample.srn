@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE network PUBLIC "-//SCIRun/Network DTD" "network.dtd">
-<network version="v4.7" netversion="4" name="{Main}" bbox="{6 6 1787 1195}" creationDate="{Fri Jul 11 2014}" creationTime="{14:45:56}" geometry="{915x1072+542+0}">
+<network version="v4.7" netversion="1" name="{Main}" bbox="{6 6 976 1195}" creationDate="{Fri May 22 2015}" creationTime="{15:22:43}" geometry="{920x770+434+0}">
   <note>{}</note>
   <modules>
     <module id="m1" package="SCIRun" category="DataIO" name="ReadField" version="1.0">
       <position x="80" y="6"/>
-      <note position="{def}" color="{white}">{Load Torso File}</note>
-      <var name="filename" val="{/usr/sci/projects/IBBM/Bioelectricity/Forward_Problems/Dipole_Source/adult-torso-200x200x250.fld}" filename="yes" substitute="yes"/>
+      <note position="{def}" color="{white}">{Load Torso File
+SCIRunData}</note>
+      <var name="filename" val="{/Users/jess/software/trunk/SCIRunData/torso/adult-torso-200x200x250.fld}" filename="yes" substitute="yes"/>
       <var name="from-env" val="{}" substitute="no"/>
       <var name="filetype" val="{SCIRun Field File (*.fld)}" substitute="no"/>
       <var name="filename_base" val="{adult-torso-200x200x250.fld}" substitute="no"/>
       <var name="number_in_series" val="{0}" substitute="no"/>
       <var name="delay" val="{0}" substitute="no"/>
-      <var name="ui_geometry" val="{559x354+1247+580}" substitute="no"/>
+      <var name="ui_geometry" val="{783x354+620+361}" substitute="no"/>
     </module>
     <module id="m2" package="SCIRun" category="Visualization" name="ShowField" version="1.0">
       <position x="138" y="1003"/>
@@ -69,16 +70,16 @@
       <gui_callback>
         <callback>addViewer</callback>
       </gui_callback>
-      <var name="ViewWindow_0-geometry" val="700x724+52+132" substitute="no"/>
-      <var name="ViewWindow_0-view-eyep-x" val="{625.6126423038727}" substitute="no"/>
-      <var name="ViewWindow_0-view-eyep-y" val="{-1931.267358527624}" substitute="no"/>
-      <var name="ViewWindow_0-view-eyep-z" val="{427.3182294683461}" substitute="no"/>
-      <var name="ViewWindow_0-view-lookat-x" val="{-5.238922119140625}" substitute="no"/>
-      <var name="ViewWindow_0-view-lookat-y" val="{-10.689140492960917}" substitute="no"/>
-      <var name="ViewWindow_0-view-lookat-z" val="{-27.46346183361382}" substitute="no"/>
-      <var name="ViewWindow_0-view-up-x" val="{-0.20835017983244414}" substitute="no"/>
-      <var name="ViewWindow_0-view-up-y" val="{0.16003930337640704}" substitute="no"/>
-      <var name="ViewWindow_0-view-up-z" val="{0.9648718173615513}" substitute="no"/>
+      <var name="ViewWindow_0-geometry" val="700x730+68+44" substitute="no"/>
+      <var name="ViewWindow_0-view-eyep-x" val="{-34.67241452806144}" substitute="no"/>
+      <var name="ViewWindow_0-view-eyep-y" val="{-1830.6030921653319}" substitute="no"/>
+      <var name="ViewWindow_0-view-eyep-z" val="{-48.44486778026494}" substitute="no"/>
+      <var name="ViewWindow_0-view-lookat-x" val="{-42.901169821359446}" substitute="no"/>
+      <var name="ViewWindow_0-view-lookat-y" val="{15.025931114282287}" substitute="no"/>
+      <var name="ViewWindow_0-view-lookat-z" val="{-18.504183777377506}" substitute="no"/>
+      <var name="ViewWindow_0-view-up-x" val="{0.8531418392448765}" substitute="no"/>
+      <var name="ViewWindow_0-view-up-y" val="{-0.004658849829901404}" substitute="no"/>
+      <var name="ViewWindow_0-view-up-z" val="{0.5216582188062715}" substitute="no"/>
       <var name="ViewWindow_0-view-fov" val="{20.0}" substitute="no"/>
       <var name="ViewWindow_0-homeview-eyep-x" val="{2.1}" substitute="no"/>
       <var name="ViewWindow_0-homeview-eyep-y" val="{1.6}" substitute="no"/>
@@ -117,9 +118,9 @@
       <var name="ViewWindow_0-fog-start" val="{0.0}" substitute="no"/>
       <var name="ViewWindow_0-fog-end" val="{0.714265}" substitute="no"/>
       <var name="ViewWindow_0-fog-visibleonly" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-inertia_loop_count" val="{45}" substitute="no"/>
-      <var name="ViewWindow_0-inertia_x" val="{1.0}" substitute="no"/>
-      <var name="ViewWindow_0-inertia_y" val="{0.0}" substitute="no"/>
+      <var name="ViewWindow_0-inertia_loop_count" val="{136}" substitute="no"/>
+      <var name="ViewWindow_0-inertia_x" val="{-0.09043621477928664}" substitute="no"/>
+      <var name="ViewWindow_0-inertia_y" val="{-0.9498577137051412}" substitute="no"/>
       <var name="ViewWindow_0-currentvisual" val="{0}" substitute="no"/>
       <var name="ViewWindow_0-autoav" val="{0}" substitute="no"/>
       <var name="ViewWindow_0-caxes" val="{0}" substitute="no"/>
@@ -197,45 +198,6 @@
       <var name="ViewWindow_0-global-movieName" val="{./movie.%04d}" substitute="no"/>
       <var name="ViewWindow_0-global-movie" val="{0}" substitute="no"/>
       <var name="ViewWindow_0-global-sync_with_execute" val="{0}" substitute="no"/>
-      <var name="&quot;ViewWindow_0-Dipole0 (6)&quot;" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-0-useglobal" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-0-type" val="{Gouraud}" substitute="no"/>
-      <var name="ViewWindow_0-0-debug" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-0-clip" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-0-cull" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-0-dl" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-0-fog" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-0-light" val="{1}" substitute="no"/>
-      <var name="&quot;ViewWindow_0-Heart Faces (1)&quot;" val="{0}" substitute="no"/>
-      <var name="&quot;ViewWindow_0-ShowColorMap Sticky (5)&quot;" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-2-useglobal" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-2-type" val="{Gouraud}" substitute="no"/>
-      <var name="ViewWindow_0-2-debug" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-2-clip" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-2-cull" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-2-dl" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-2-fog" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-2-light" val="{1}" substitute="no"/>
-      <var name="&quot;ViewWindow_0-Torso_Surf Transparent Faces (2)&quot;" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-3-useglobal" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-3-type" val="{Gouraud}" substitute="no"/>
-      <var name="ViewWindow_0-3-debug" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-3-clip" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-3-cull" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-3-dl" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-3-fog" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-3-light" val="{1}" substitute="no"/>
-      <var name="&quot;ViewWindow_0-ExtractIsosurface (3)&quot;" val="{0}" substitute="no"/>
-      <var name="&quot;ViewWindow_0-Faces (4)&quot;" val="{0}" substitute="no"/>
-      <var name="&quot;ViewWindow_0-Nodes (7)&quot;" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-6-useglobal" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-6-type" val="{Gouraud}" substitute="no"/>
-      <var name="ViewWindow_0-6-debug" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-6-clip" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-6-cull" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-6-dl" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-6-fog" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-6-light" val="{1}" substitute="no"/>
     </module>
     <module id="m4" package="SCIRun" category="NewField" name="ClipFieldByFunction" version="2.0">
       <position x="61" y="197"/>
@@ -305,27 +267,19 @@
       <var name="use_default_size" val="{0}" substitute="no"/>
       <var name="ui_geometry" val="{315x667+0+110}" substitute="no"/>
     </module>
-    <module id="m8" package="SCIRun" category="ChangeFieldData" name="CalculateFieldData" version="1.0">
-      <position x="1659" y="325"/>
-      <note position="{n}" color="{white}">{Actual Conductivities}</note>
-      <var name="function" val="{RESULT = select(DATA==1,0.22,&#10;&#9;&#9;select(DATA==2,0.002,&#10;&#9;&#9;select(DATA==3,0.25,&#10;&#9;&#9;select(DATA==4,0.05,&#10;&#9;&#9;select(DATA==5,0.15,&#10;&#9;&#9;select(DATA==6,0.07,&#10;&#9;&#9;select(DATA==7,0.067,&#10;&#9;&#9;select(DATA==8,0.006,&#10;&#9;&#9;select(DATA==9,0.7,&#10;&#9;&#9;select(DATA==10,0.3,0.3))))))))));&#10;&#10;&#10;}" substitute="no"/>
-      <var name="format" val="{Scalar}" substitute="no"/>
-      <var name="cache" val="{0}" substitute="no"/>
-      <var name="ui_geometry" val="{863x436+21+452}" substitute="no"/>
-    </module>
-    <module id="m9" package="SCIRun" category="FiniteElements" name="BuildFEMatrix" version="1.0">
+    <module id="m8" package="SCIRun" category="FiniteElements" name="BuildFEMatrix" version="1.0">
       <position x="203" y="484"/>
       <var name="use-basis" val="{0}" substitute="no"/>
       <var name="force-symmetry" val="{0}" substitute="no"/>
       <var name="num-processors" val="{auto}" substitute="no"/>
       <var name="ui_geometry" val="{288x100+40+84}" substitute="no"/>
     </module>
-    <module id="m10" package="SCIRun" category="ChangeMesh" name="ConvertHexVolToTetVol" version="1.0">
+    <module id="m9" package="SCIRun" category="ChangeMesh" name="ConvertHexVolToTetVol" version="1.0">
       <position x="346" y="481"/>
       <note position="{n}" color="{white}">{Convert nrrd file/mesh
 to compatible format}</note>
     </module>
-    <module id="m11" package="SCIRun" category="NewField" name="GenerateSinglePointProbeFromField" version="1.0">
+    <module id="m10" package="SCIRun" category="NewField" name="GenerateSinglePointProbeFromField" version="1.0">
       <position x="507" y="277"/>
       <note position="{n}" color="{white}">{Create Point at Heart Center}</note>
       <var name="main_frame" val="{.uiSCIRun_NewField_GenerateSinglePointProbeFromField_0}" substitute="no"/>
@@ -345,16 +299,16 @@ to compatible format}</note>
       <var name="color-b" val="{0.0}" substitute="no"/>
       <var name="ui_geometry" val="{348x233+1160+141}" substitute="no"/>
     </module>
-    <module id="m12" package="SCIRun" category="Visualization" name="RescaleColorMap" version="1.0">
+    <module id="m11" package="SCIRun" category="Visualization" name="RescaleColorMap" version="1.0">
       <position x="379" y="897"/>
       <var name="main_frame" val="{.uiSCIRun_Visualization_RescaleColorMap_0}" substitute="no"/>
       <var name="isFixed" val="{0}" substitute="no"/>
-      <var name="min" val="{-1.556947702704782e-5}" substitute="no"/>
-      <var name="max" val="{2.230379190299344e-5}" substitute="no"/>
+      <var name="min" val="{-0.0006337492132778564}" substitute="no"/>
+      <var name="max" val="{0.00039882280303457786}" substitute="no"/>
       <var name="makeSymmetric" val="{0}" substitute="no"/>
       <var name="ui_geometry" val="{288x200+1399+398}" substitute="no"/>
     </module>
-    <module id="m13" package="SCIRun" category="Visualization" name="CreateStandardColorMaps" version="1.0">
+    <module id="m12" package="SCIRun" category="Visualization" name="CreateStandardColorMaps" version="1.0">
       <position x="99" y="771"/>
       <var name="mapName" val="{Rainbow}" substitute="no"/>
       <var name="gamma" val="{0.0}" substitute="no"/>
@@ -366,10 +320,10 @@ to compatible format}</note>
       <var name="width" val="{1}" substitute="no"/>
       <var name="height" val="{1}" substitute="no"/>
     </module>
-    <module id="m14" package="SCIRun" category="Visualization" name="ExtractIsosurface" version="1.0">
+    <module id="m13" package="SCIRun" category="Visualization" name="ExtractIsosurface" version="1.0">
       <position x="269" y="1003"/>
-      <var name="isoval-min" val="{-0.00896472858097435}" substitute="no"/>
-      <var name="isoval-max" val="{0.008969780682010382}" substitute="no"/>
+      <var name="isoval-min" val="{-0.2298174243156216}" substitute="no"/>
+      <var name="isoval-max" val="{0.47512782704727674}" substitute="no"/>
       <var name="isoval" val="{0.0}" substitute="no"/>
       <var name="isoval-typed" val="{0.0}" substitute="no"/>
       <var name="isoval-quantity" val="{2}" substitute="no"/>
@@ -393,7 +347,7 @@ to compatible format}</note>
       <var name="num-threads" val="{0}" substitute="no"/>
       <var name="ui_geometry" val="{324x442+1134+259}" substitute="no"/>
     </module>
-    <module id="m15" package="SCIRun" category="ChangeMesh" name="ResampleRegularMesh" version="1.0">
+    <module id="m14" package="SCIRun" category="ChangeMesh" name="ResampleRegularMesh" version="1.0">
       <position x="152" y="94"/>
       <note position="{def}" color="{white}">{Downsample}</note>
       <var name="method" val="{box}" substitute="no"/>
@@ -404,7 +358,7 @@ to compatible format}</note>
       <var name="zdim" val="{x0.5}" substitute="no"/>
       <var name="ui_geometry" val="{539x216+40+62}" substitute="no"/>
     </module>
-    <module id="m16" package="SCIRun" category="Visualization" name="ShowField" version="1.0">
+    <module id="m15" package="SCIRun" category="Visualization" name="ShowField" version="1.0">
       <position x="401" y="1003"/>
       <note position="{n}" color="{white}">{Torso_Potentials}</note>
       <var name="nodes_on" val="{0}" substitute="no"/>
@@ -454,13 +408,13 @@ to compatible format}</note>
       <var name="use_default_size" val="{0}" substitute="no"/>
       <var name="ui_geometry" val="{315x667+40+62}" substitute="no"/>
     </module>
-    <module id="m17" package="SCIRun" category="NewField" name="GetFieldBoundary" version="1.0">
+    <module id="m16" package="SCIRun" category="NewField" name="GetFieldBoundary" version="1.0">
       <position x="438" y="785"/>
       <note position="{def}" color="{white}">{Get torso surface 
 with associate 
 potential values}</note>
     </module>
-    <module id="m18" package="SCIRun" category="ChangeFieldData" name="CalculateFieldData" version="1.0">
+    <module id="m17" package="SCIRun" category="ChangeFieldData" name="CalculateFieldData" version="1.0">
       <position x="91" y="411"/>
       <note position="{n}" color="{white}">{Conductivity of 1}</note>
       <var name="function" val="{RESULT = 1;&#10;&#10;}" substitute="no"/>
@@ -468,7 +422,7 @@ potential values}</note>
       <var name="cache" val="{0}" substitute="no"/>
       <var name="ui_geometry" val="{863x436+21+430}" substitute="no"/>
     </module>
-    <module id="m19" package="SCIRun" category="Visualization" name="ShowColorMap" version="1.0">
+    <module id="m18" package="SCIRun" category="Visualization" name="ShowColorMap" version="1.0">
       <position x="534" y="1014"/>
       <var name="length" val="{half2}" substitute="no"/>
       <var name="side" val="{left}" substitute="no"/>
@@ -482,7 +436,7 @@ potential values}</note>
       <var name="text-fontsize" val="{2}" substitute="no"/>
       <var name="extra-padding" val="{0}" substitute="no"/>
     </module>
-    <module id="m20" package="SCIRun" category="NewField" name="FairMesh" version="1.0">
+    <module id="m19" package="SCIRun" category="NewField" name="FairMesh" version="1.0">
       <position x="257" y="350"/>
       <note position="{n}" color="{white}">{Smooth}</note>
       <var name="iterations" val="{50}" substitute="no"/>
@@ -490,7 +444,7 @@ potential values}</note>
       <var name="lambda" val="{0.6307}" substitute="no"/>
       <var name="mu" val="{0.1}" substitute="no"/>
     </module>
-    <module id="m21" package="SCIRun" category="ChangeFieldData" name="CreateFieldData" version="1.0">
+    <module id="m20" package="SCIRun" category="ChangeFieldData" name="CreateFieldData" version="1.0">
       <position x="603" y="378"/>
       <note position="{def}" color="{white}">{Turn point into an
 initializing vector}</note>
@@ -499,7 +453,7 @@ initializing vector}</note>
       <var name="basis" val="{Linear}" substitute="no"/>
       <var name="ui_geometry" val="{862x344+20+42}" substitute="no"/>
     </module>
-    <module id="m22" package="BioPSE" category="Forward" name="ApplyFEMCurrentSource" version="1.0">
+    <module id="m21" package="BioPSE" category="Forward" name="ApplyFEMCurrentSource" version="1.0">
       <position x="441" y="576"/>
       <note position="{def}" color="{white}">{Apply the dipole 
 as a source in
@@ -509,30 +463,30 @@ the torso}</note>
       <var name="modeTCL" val="{dipole}" substitute="no"/>
       <var name="ui_geometry" val="{288x88+40+84}" substitute="no"/>
     </module>
-    <module id="m23" package="SCIRun" category="Math" name="SolveLinearSystem" version="1.0">
+    <module id="m22" package="SCIRun" category="Math" name="SolveLinearSystem" version="1.0">
       <position x="369" y="651"/>
       <note position="{def}" color="{white}">{Solve for potentials 
 in the torso}</note>
       <var name="target_error" val="{1e-5}" substitute="no"/>
-      <var name="orig_error" val="{1.0}" substitute="no"/>
-      <var name="current_error" val="{9.67679253532744e-6}" substitute="no"/>
+      <var name="orig_error" val="{1.4142135401945877}" substitute="no"/>
+      <var name="current_error" val="{9.776228784864874e-6}" substitute="no"/>
       <var name="method" val="{Conjugate Gradient &amp; Precond. (SCI)}" substitute="no"/>
       <var name="precond" val="{jacobi}" substitute="no"/>
-      <var name="iteration" val="{226}" substitute="no"/>
+      <var name="iteration" val="{179}" substitute="no"/>
       <var name="maxiter" val="{500}" substitute="no"/>
       <var name="use_previous_soln" val="{1}" substitute="no"/>
       <var name="emit_partial" val="{1}" substitute="no"/>
       <var name="emit_iter" val="{50}" substitute="no"/>
       <var name="ui_geometry" val="{483x730+1209+246}" substitute="no"/>
     </module>
-    <module id="m24" package="SCIRun" category="ChangeFieldData" name="SetFieldData" version="1.0">
+    <module id="m23" package="SCIRun" category="ChangeFieldData" name="SetFieldData" version="1.0">
       <position x="355" y="723"/>
       <note position="{def}" color="{white}">{Assign computed
 potential values to
 torso mesh}</note>
       <var name="keepscalartype" val="{0}" substitute="no"/>
     </module>
-    <module id="m25" package="BioPSE" category="Visualization" name="ShowAndEditDipoles" version="1.0">
+    <module id="m24" package="BioPSE" category="Visualization" name="ShowAndEditDipoles" version="1.0">
       <position x="637" y="455"/>
       <note position="{def}" color="{white}">{Generate Editable
 Dipole Vector}</note>
@@ -543,34 +497,28 @@ Dipole Vector}</note>
       <var name="showLinesGui_" val="{0}" substitute="no"/>
       <var name="max-len" val="{1.0}" substitute="no"/>
       <var name="ui_geometry" val="{372x178+872+409}" substitute="no"/>
-      <var name="newpos0-x" val="{42.17078847819885}" substitute="no"/>
-      <var name="newpos0-y" val="{5.075267705324854}" substitute="no"/>
-      <var name="newpos0-z" val="{31.523433144975353}" substitute="no"/>
-      <var name="newdir0-x" val="{1.0}" substitute="no"/>
-      <var name="newdir0-y" val="{0.0}" substitute="no"/>
-      <var name="newdir0-z" val="{0.0}" substitute="no"/>
-      <var name="newmag0" val="{1.0}" substitute="no"/>
     </module>
-    <module id="m26" package="SCIRun" category="NewField" name="FairMesh" version="1.0">
+    <module id="m25" package="SCIRun" category="NewField" name="FairMesh" version="1.0">
       <position x="139" y="910"/>
       <var name="iterations" val="{50}" substitute="no"/>
       <var name="method" val="{fast}" substitute="no"/>
       <var name="lambda" val="{0.6307}" substitute="no"/>
       <var name="mu" val="{0.1}" substitute="no"/>
     </module>
-    <module id="m27" package="SCIRun" category="DataIO" name="ReadField" version="1.0">
-      <position x="772" y="671"/>
+    <module id="m26" package="SCIRun" category="DataIO" name="ReadField" version="1.0" gui_visible="yes">
+      <position x="756" y="654"/>
       <note position="{n}" color="{white}">{Point Set on Torso Surface
-For Inverse Lab}</note>
-      <var name="filename" val="{/usr/sci/projects/IBBM/Bioelectricity/Forward_Problems/Dipole_Source/measurement_locations.fld}" filename="yes" substitute="yes"/>
+For Inverse Lab
+IBBM Data dir}</note>
+      <var name="filename" val="{/Users/jess/sock_alligned.fld}" filename="yes" substitute="yes"/>
       <var name="from-env" val="{}" substitute="no"/>
       <var name="filetype" val="{SCIRun Field File (*.fld)}" substitute="no"/>
-      <var name="filename_base" val="{measurement_locations.fld}" substitute="no"/>
+      <var name="filename_base" val="{sock_alligned.fld}" substitute="no"/>
       <var name="number_in_series" val="{0}" substitute="no"/>
       <var name="delay" val="{0}" substitute="no"/>
-      <var name="ui_geometry" val="{410x354+860+511}" substitute="no"/>
+      <var name="ui_geometry" val="{410x354+620+361}" substitute="no"/>
     </module>
-    <module id="m28" package="SCIRun" category="Visualization" name="ShowField" version="1.0">
+    <module id="m27" package="SCIRun" category="Visualization" name="ShowField" version="1.0">
       <position x="696" y="993"/>
       <note position="{def}" color="{white}">{Surface Point Set}</note>
       <var name="nodes_on" val="{1}" substitute="no"/>
@@ -620,7 +568,7 @@ For Inverse Lab}</note>
       <var name="use_default_size" val="{0}" substitute="no"/>
       <var name="ui_geometry" val="{315x667+712+250}" substitute="no"/>
     </module>
-    <module id="m29" package="SCIRun" category="ChangeFieldData" name="MapFieldDataFromSourceToDestination" version="1.0">
+    <module id="m28" package="SCIRun" category="ChangeFieldData" name="MapFieldDataFromSourceToDestination" version="1.0">
       <position x="721" y="850"/>
       <var name="interpolation_basis" val="{linear}" substitute="no"/>
       <var name="map_source_to_single_dest" val="{0}" substitute="no"/>
@@ -630,45 +578,45 @@ For Inverse Lab}</note>
     </module>
   </modules>
   <connections>
-    <connection id="c1" from="m18" fromport="0" to="m9" toport="0"/>
-    <connection id="c2" from="m21" fromport="0" to="m25" toport="0"/>
-    <connection id="c3" from="m29" fromport="0" to="m28" toport="0"/>
-    <connection id="c4" from="m24" fromport="0" to="m17" toport="0"/>
-    <connection id="c5" from="m24" fromport="0" to="m14" toport="0"/>
-    <connection id="c6" from="m24" fromport="0" to="m16" toport="0"/>
-    <connection id="c7" from="m10" fromport="0" to="m22" toport="0"/>
-    <connection id="c8" from="m15" fromport="0" to="m4" toport="0"/>
-    <connection id="c9" from="m15" fromport="0" to="m5" toport="0"/>
-    <connection id="c10" from="m1" fromport="0" to="m15" toport="0"/>
-    <connection id="c11" from="m9" fromport="0" to="m23" toport="0"/>
-    <connection id="c12" from="m4" fromport="0" to="m18" toport="0"/>
-    <connection id="c13" from="m4" fromport="0" to="m24" toport="0"/>
-    <connection id="c14" from="m4" fromport="0" to="m10" toport="0"/>
-    <connection id="c15" from="m5" fromport="0" to="m11" toport="0"/>
+    <connection id="c1" from="m17" fromport="0" to="m8" toport="0"/>
+    <connection id="c2" from="m20" fromport="0" to="m24" toport="0"/>
+    <connection id="c3" from="m28" fromport="0" to="m27" toport="0"/>
+    <connection id="c4" from="m23" fromport="0" to="m16" toport="0"/>
+    <connection id="c5" from="m23" fromport="0" to="m13" toport="0"/>
+    <connection id="c6" from="m23" fromport="0" to="m15" toport="0"/>
+    <connection id="c7" from="m9" fromport="0" to="m21" toport="0"/>
+    <connection id="c8" from="m14" fromport="0" to="m4" toport="0"/>
+    <connection id="c9" from="m14" fromport="0" to="m5" toport="0"/>
+    <connection id="c10" from="m1" fromport="0" to="m14" toport="0"/>
+    <connection id="c11" from="m8" fromport="0" to="m22" toport="0"/>
+    <connection id="c12" from="m4" fromport="0" to="m17" toport="0"/>
+    <connection id="c13" from="m4" fromport="0" to="m23" toport="0"/>
+    <connection id="c14" from="m4" fromport="0" to="m9" toport="0"/>
+    <connection id="c15" from="m5" fromport="0" to="m10" toport="0"/>
     <connection id="c16" from="m5" fromport="0" to="m6" toport="0"/>
-    <connection id="c17" from="m20" fromport="0" to="m7" toport="0"/>
-    <connection id="c18" from="m26" fromport="0" to="m2" toport="0"/>
-    <connection id="c19" from="m11" fromport="1" to="m21" toport="0"/>
-    <connection id="c20" from="m6" fromport="0" to="m20" toport="0"/>
-    <connection id="c21" from="m17" fromport="0" to="m29" toport="0"/>
-    <connection id="c22" from="m17" fromport="0" to="m26" toport="0"/>
-    <connection id="c23" from="m13" fromport="0" to="m12" toport="0"/>
-    <connection id="c24" from="m12" fromport="0" to="m19" toport="0"/>
+    <connection id="c17" from="m19" fromport="0" to="m7" toport="0"/>
+    <connection id="c18" from="m25" fromport="0" to="m2" toport="0"/>
+    <connection id="c19" from="m10" fromport="1" to="m20" toport="0"/>
+    <connection id="c20" from="m6" fromport="0" to="m19" toport="0"/>
+    <connection id="c21" from="m16" fromport="0" to="m28" toport="0"/>
+    <connection id="c22" from="m16" fromport="0" to="m25" toport="0"/>
+    <connection id="c23" from="m12" fromport="0" to="m11" toport="0"/>
+    <connection id="c24" from="m11" fromport="0" to="m18" toport="0"/>
     <connection id="c25" from="m7" fromport="0" to="m3" toport="0"/>
-    <connection id="c26" from="m22" fromport="0" to="m23" toport="1"/>
-    <connection id="c27" from="m25" fromport="0" to="m22" toport="1"/>
-    <connection id="c28" from="m27" fromport="0" to="m29" toport="1"/>
-    <connection id="c29" from="m23" fromport="0" to="m24" toport="1"/>
-    <connection id="c30" from="m17" fromport="0" to="m12" toport="1"/>
-    <connection id="c31" from="m12" fromport="0" to="m14" toport="1"/>
-    <connection id="c32" from="m12" fromport="0" to="m2" toport="1"/>
-    <connection id="c33" from="m12" fromport="0" to="m16" toport="1"/>
-    <connection id="c34" from="m12" fromport="0" to="m28" toport="1"/>
+    <connection id="c26" from="m21" fromport="0" to="m22" toport="1"/>
+    <connection id="c27" from="m24" fromport="0" to="m21" toport="1"/>
+    <connection id="c28" from="m26" fromport="0" to="m28" toport="1"/>
+    <connection id="c29" from="m22" fromport="0" to="m23" toport="1"/>
+    <connection id="c30" from="m16" fromport="0" to="m11" toport="1"/>
+    <connection id="c31" from="m11" fromport="0" to="m13" toport="1"/>
+    <connection id="c32" from="m11" fromport="0" to="m2" toport="1"/>
+    <connection id="c33" from="m11" fromport="0" to="m15" toport="1"/>
+    <connection id="c34" from="m11" fromport="0" to="m27" toport="1"/>
     <connection id="c35" from="m2" fromport="0" to="m3" toport="1"/>
-    <connection id="c36" from="m14" fromport="1" to="m3" toport="2"/>
-    <connection id="c37" from="m16" fromport="0" to="m3" toport="3"/>
-    <connection id="c38" from="m19" fromport="0" to="m3" toport="4"/>
-    <connection id="c39" from="m25" fromport="1" to="m3" toport="5"/>
-    <connection id="c40" from="m28" fromport="0" to="m3" toport="6"/>
+    <connection id="c36" from="m13" fromport="1" to="m3" toport="2"/>
+    <connection id="c37" from="m15" fromport="0" to="m3" toport="3"/>
+    <connection id="c38" from="m18" fromport="0" to="m3" toport="4"/>
+    <connection id="c39" from="m24" fromport="1" to="m3" toport="5"/>
+    <connection id="c40" from="m27" fromport="0" to="m3" toport="6"/>
   </connections>
 </network>

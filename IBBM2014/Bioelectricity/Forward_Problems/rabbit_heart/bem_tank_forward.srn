@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE network PUBLIC "-//SCIRun/Network DTD" "network.dtd">
-<network version="v4.7" netversion="7" name="{Main}" bbox="{13 8 802 909}" creationDate="{Fri Jul 11 2014}" creationTime="{14:50:09}" geometry="{1066x780+539+5}">
+<network version="v4.7" netversion="1" name="{Main}" bbox="{13 8 802 909}" creationDate="{Fri May 22 2015}" creationTime="{15:16:07}" geometry="{1066x780+363+0}">
   <note>{}</note>
   <modules>
     <module id="m1" package="SCIRun" category="DataIO" name="ReadMatrix" version="1.0">
       <position x="69" y="296"/>
       <note position="{s}" color="{white}">{Read the time-dependent
 known (inner surface)
-potentials}</note>
-      <var name="filename" val="{/usr/sci/projects/IBBM/Bioelectricity/Forward_Problems/rabbit_heart/heart_surf_300_pot.mat}" filename="yes" substitute="yes"/>
+potentials
+SCIRunData}</note>
+      <var name="filename" val="{/Users/jess/software/trunk/SCIRunData/FwdInvToolbox/carp_simulations/phie_apex_300pts.mat}" filename="yes" substitute="yes"/>
       <var name="from-env" val="{}" substitute="no"/>
-      <var name="filetype" val="{SCIRun Matrix File (*.mat)}" substitute="no"/>
-      <var name="ui_geometry" val="{410x354+860+511}" substitute="no"/>
+      <var name="filetype" val="{Matlab Matrix (*.mat)}" substitute="no"/>
+      <var name="ui_geometry" val="{768x369+768+276}" substitute="no"/>
     </module>
     <module id="m2" package="SCIRun" category="Math" name="GetColumnOrRowFromMatrix" version="1.0">
       <position x="231" y="454"/>
@@ -21,8 +22,8 @@ potentials (outer
 surface) to visualize}</note>
       <var name="row_or_col" val="{col}" substitute="no"/>
       <var name="selectable_min" val="{0}" substitute="no"/>
-      <var name="selectable_max" val="{300.0}" substitute="no"/>
-      <var name="selectable_inc" val="{301}" substitute="no"/>
+      <var name="selectable_max" val="{800.0}" substitute="no"/>
+      <var name="selectable_inc" val="{801}" substitute="no"/>
       <var name="selectable_units" val="{}" substitute="no"/>
       <var name="range_min" val="{0}" substitute="no"/>
       <var name="range_max" val="{300}" substitute="no"/>
@@ -112,16 +113,16 @@ outer surface}</note>
       <gui_callback>
         <callback>addViewer</callback>
       </gui_callback>
-      <var name="ViewWindow_0-geometry" val="654x666+265+165" substitute="no"/>
-      <var name="ViewWindow_0-view-eyep-x" val="{296.9141205536208}" substitute="no"/>
-      <var name="ViewWindow_0-view-eyep-y" val="{-688.6283197063013}" substitute="no"/>
-      <var name="ViewWindow_0-view-eyep-z" val="{939.97127616292}" substitute="no"/>
+      <var name="ViewWindow_0-geometry" val="654x672+265+209" substitute="no"/>
+      <var name="ViewWindow_0-view-eyep-x" val="{478.71596698556334}" substitute="no"/>
+      <var name="ViewWindow_0-view-eyep-y" val="{-869.5477494064528}" substitute="no"/>
+      <var name="ViewWindow_0-view-eyep-z" val="{490.0453597918561}" substitute="no"/>
       <var name="ViewWindow_0-view-lookat-x" val="{-32.96584600613127}" substitute="no"/>
       <var name="ViewWindow_0-view-lookat-y" val="{29.43854402988982}" substitute="no"/>
       <var name="ViewWindow_0-view-lookat-z" val="{219.86700227683826}" substitute="no"/>
-      <var name="ViewWindow_0-view-up-x" val="{-0.1439062271017263}" substitute="no"/>
-      <var name="ViewWindow_0-view-up-y" val="{0.6669956640750059}" substitute="no"/>
-      <var name="ViewWindow_0-view-up-z" val="{0.7310319978677324}" substitute="no"/>
+      <var name="ViewWindow_0-view-up-x" val="{0.17052685793744737}" substitute="no"/>
+      <var name="ViewWindow_0-view-up-y" val="{0.37135841837849004}" substitute="no"/>
+      <var name="ViewWindow_0-view-up-z" val="{0.9126957410996328}" substitute="no"/>
       <var name="ViewWindow_0-view-fov" val="{20.0}" substitute="no"/>
       <var name="ViewWindow_0-view-eyep_offset-x" val="{}" substitute="no"/>
       <var name="ViewWindow_0-view-eyep_offset-y" val="{}" substitute="no"/>
@@ -163,9 +164,9 @@ outer surface}</note>
       <var name="ViewWindow_0-fog-start" val="{0.0}" substitute="no"/>
       <var name="ViewWindow_0-fog-end" val="{0.714265}" substitute="no"/>
       <var name="ViewWindow_0-fog-visibleonly" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-inertia_loop_count" val="{175}" substitute="no"/>
-      <var name="ViewWindow_0-inertia_x" val="{-0.5017879828876258}" substitute="no"/>
-      <var name="ViewWindow_0-inertia_y" val="{0.7557617770809982}" substitute="no"/>
+      <var name="ViewWindow_0-inertia_loop_count" val="{314}" substitute="no"/>
+      <var name="ViewWindow_0-inertia_x" val="{-0.06832738922619636}" substitute="no"/>
+      <var name="ViewWindow_0-inertia_y" val="{0.8045207160392319}" substitute="no"/>
       <var name="ViewWindow_0-currentvisual" val="{0}" substitute="no"/>
       <var name="ViewWindow_0-autoav" val="{0}" substitute="no"/>
       <var name="ViewWindow_0-caxes" val="{0}" substitute="no"/>
@@ -243,52 +244,6 @@ outer surface}</note>
       <var name="ViewWindow_0-global-movieName" val="{./movie.%04d}" substitute="no"/>
       <var name="ViewWindow_0-global-movie" val="{0}" substitute="no"/>
       <var name="ViewWindow_0-global-sync_with_execute" val="{0}" substitute="no"/>
-      <var name="&quot;ViewWindow_0-EditMeshBoundingBox Transform widget (2)&quot;" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-0-useglobal" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-0-type" val="{Gouraud}" substitute="no"/>
-      <var name="ViewWindow_0-0-debug" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-0-clip" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-0-cull" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-0-dl" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-0-fog" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-0-light" val="{1}" substitute="no"/>
-      <var name="&quot;ViewWindow_0-ShowColorMap Sticky (3)&quot;" val="{1}" substitute="no"/>
-      <var name="&quot;ViewWindow_0-ShowColorMap Sticky (5)&quot;" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-1-useglobal" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-1-type" val="{Gouraud}" substitute="no"/>
-      <var name="ViewWindow_0-1-debug" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-1-clip" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-1-cull" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-1-dl" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-1-fog" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-1-light" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-2-useglobal" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-2-type" val="{Gouraud}" substitute="no"/>
-      <var name="ViewWindow_0-2-debug" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-2-clip" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-2-cull" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-2-dl" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-2-fog" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-2-light" val="{1}" substitute="no"/>
-      <var name="&quot;ViewWindow_0-Faces (1)&quot;" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-3-useglobal" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-3-type" val="{Gouraud}" substitute="no"/>
-      <var name="ViewWindow_0-3-debug" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-3-clip" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-3-cull" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-3-dl" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-3-fog" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-3-light" val="{1}" substitute="no"/>
-      <var name="&quot;ViewWindow_0-Edges (4)&quot;" val="{0}" substitute="no"/>
-      <var name="&quot;ViewWindow_0-Transparent Faces (4)&quot;" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-5-useglobal" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-5-type" val="{Gouraud}" substitute="no"/>
-      <var name="ViewWindow_0-5-debug" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-5-clip" val="{1}" substitute="no"/>
-      <var name="ViewWindow_0-5-cull" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-5-dl" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-5-fog" val="{0}" substitute="no"/>
-      <var name="ViewWindow_0-5-light" val="{1}" substitute="no"/>
     </module>
     <module id="m7" package="SCIRun" category="Visualization" name="ShowColorMap" version="1.0">
       <position x="196" y="768"/>
@@ -315,25 +270,27 @@ potentials}</note>
     </module>
     <module id="m9" package="SCIRun" category="DataIO" name="ReadField" version="1.0">
       <position x="24" y="8"/>
-      <note position="{e}" color="{white}">{Read the inner surface (heart)}</note>
-      <var name="filename" val="{/usr/sci/projects/IBBM/Bioelectricity/Forward_Problems/rabbit_heart/ucla_heart_300.fld}" filename="yes" substitute="yes"/>
+      <note position="{e}" color="{white}">{Read the inner surface (heart)
+SCIRunData}</note>
+      <var name="filename" val="{/Users/jess/software/trunk/SCIRunData/FwdInvToolbox/carp_simulations/ucla_heart_300.fld}" filename="yes" substitute="yes"/>
       <var name="from-env" val="{}" substitute="no"/>
       <var name="filetype" val="{SCIRun Field File (*.fld)}" substitute="no"/>
       <var name="filename_base" val="{ucla_heart_300.fld}" substitute="no"/>
       <var name="number_in_series" val="{0}" substitute="no"/>
       <var name="delay" val="{0}" substitute="no"/>
-      <var name="ui_geometry" val="{410x354+860+511}" substitute="no"/>
+      <var name="ui_geometry" val="{566x354+620+361}" substitute="no"/>
     </module>
     <module id="m10" package="SCIRun" category="DataIO" name="ReadField" version="1.0">
       <position x="643" y="42"/>
-      <note position="{def}" color="{white}">{Read the outer surface (torso)}</note>
-      <var name="filename" val="{/usr/sci/projects/IBBM/Bioelectricity/Forward_Problems/rabbit_heart/tank.fld}" filename="yes" substitute="yes"/>
+      <note position="{def}" color="{white}">{Read the outer surface (torso)
+SCIRunData}</note>
+      <var name="filename" val="{/Users/jess/software/trunk/SCIRunData/FwdInvToolbox/pot_based_BEM_forward/tank.fld}" filename="yes" substitute="yes"/>
       <var name="from-env" val="{}" substitute="no"/>
       <var name="filetype" val="{SCIRun Field File (*.fld)}" substitute="no"/>
       <var name="filename_base" val="{tank.fld}" substitute="no"/>
       <var name="number_in_series" val="{0}" substitute="no"/>
       <var name="delay" val="{0}" substitute="no"/>
-      <var name="ui_geometry" val="{578x354+860+511}" substitute="no"/>
+      <var name="ui_geometry" val="{643x354+620+361}" substitute="no"/>
     </module>
     <module id="m11" package="SCIRun" category="Visualization" name="ShowField" version="1.0">
       <position x="13" y="768"/>
@@ -393,8 +350,8 @@ the input data
 (inner surface)}</note>
       <var name="row_or_col" val="{col}" substitute="no"/>
       <var name="selectable_min" val="{0}" substitute="no"/>
-      <var name="selectable_max" val="{300.0}" substitute="no"/>
-      <var name="selectable_inc" val="{301}" substitute="no"/>
+      <var name="selectable_max" val="{800.0}" substitute="no"/>
+      <var name="selectable_inc" val="{801}" substitute="no"/>
       <var name="selectable_units" val="{}" substitute="no"/>
       <var name="range_min" val="{0}" substitute="no"/>
       <var name="range_max" val="{509}" substitute="no"/>
@@ -456,16 +413,16 @@ computed potentials}</note>
       <position x="196" y="691"/>
       <var name="main_frame" val="{}" substitute="no"/>
       <var name="isFixed" val="{0}" substitute="no"/>
-      <var name="min" val="{-3.1948400000000006}" substitute="no"/>
-      <var name="max" val="{2.057179999999999}" substitute="no"/>
+      <var name="min" val="{-3.40273333333334}" substitute="no"/>
+      <var name="max" val="{2.1914199999999897}" substitute="no"/>
       <var name="makeSymmetric" val="{0}" substitute="no"/>
     </module>
     <module id="m16" package="SCIRun" category="Visualization" name="RescaleColorMap" version="1.0">
       <position x="571" y="688"/>
       <var name="main_frame" val="{}" substitute="no"/>
       <var name="isFixed" val="{0}" substitute="no"/>
-      <var name="min" val="{-0.44216223096632556}" substitute="no"/>
-      <var name="max" val="{0.3089538365321622}" substitute="no"/>
+      <var name="min" val="{-0.4502042992086061}" substitute="no"/>
+      <var name="max" val="{0.29635806032242307}" substitute="no"/>
       <var name="makeSymmetric" val="{0}" substitute="no"/>
     </module>
     <module id="m17" package="SCIRun" category="Visualization" name="ShowColorMap" version="1.0">
