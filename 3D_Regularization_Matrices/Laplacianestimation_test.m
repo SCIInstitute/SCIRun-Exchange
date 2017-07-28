@@ -16,7 +16,7 @@
 
 %% INPUT
 	heart = field1;
-	o1 = sigma;
+	sigma = o1;
 
 
 %% Estimate the 3D laplacian
