@@ -1,5 +1,6 @@
 defib_simulation_evaluation.srn
 lead_impedance.srn
+external_defibrillation_example.srn5
 
 Decription:
 defib_simulation_evaluation.srn is similar to one of the netowrk 
@@ -15,7 +16,7 @@ example, defib_simulation_evaluation_python.srn5 and
 defib_simulation_evaluation_matlab.srn5 are non-scripted examples of
 evaluating the DFT with either matlab or python.  the matlab version
 runs the matlab engine in python. defib_simulation_evaluation.srn5
-is a scripted version, and uses python to compute the dft.  
+is a scripted version, and uses python to compute the DFT.  
 
 lead_impedance.srn is meant to build on the previous network 
 (defib_simulation_evaluation.srn) to estimate the lead impedance 
@@ -23,6 +24,18 @@ between two stimulating leads.  This estimation is based on the total
 current through a surface around the ICD coil.  With Ohm's law and a 
 known voltage drop, we can calculate the total resistance between the 
 electrodes. 
+
+external_defibrillation_example.srn5 is an example of how to set up an
+external defibrillation simulation.  This example uses square pads, but
+the user can inport any profile of pad.  The pad geometer should be an
+extruded form of the desired pad profile.  it should be placed so that 
+the pad volume intersects the torso surface in a way that provides the 
+approximate pad surface profile.  the intersection is used to ensure 
+that the simulated pads are properly contacted to the torso surface. 
+from the intersection, a thin volume is used as the electrode sources 
+to computed the potential field through the torso.  with the computed 
+ptotential field, the user can incorperate the defib evaluation portion
+of the ICD example.  
 
 
 Using defib_simulation_evaluation.srn:
