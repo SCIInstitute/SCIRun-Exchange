@@ -10,7 +10,12 @@ matlab script that will calculate some statistics of the electric
 field in the heart.  These statistics include the voltage and 
 energy needed to have 95% of the myocardium over 5 V/cm (citical 
 mass hypothesis) and the distribution of the electric field 
-strength through the myocaridum.
+strength through the myocaridum.  There are SCIRun 5 versions of this
+example, defib_simulation_evaluation_python.srn5 and 
+defib_simulation_evaluation_matlab.srn5 are non-scripted examples of
+evaluating the DFT with either matlab or python.  the matlab version
+runs the matlab engine in python. defib_simulation_evaluation.srn5
+is a scripted version, and uses python to compute the dft.  
 
 lead_impedance.srn is meant to build on the previous network 
 (defib_simulation_evaluation.srn) to estimate the lead impedance 

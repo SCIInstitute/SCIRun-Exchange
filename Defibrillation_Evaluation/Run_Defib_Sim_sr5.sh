@@ -16,7 +16,7 @@
 # (optional) path to directory to move results 
 #
 # example to use script:
-# ./Run_Defib_Sim5.sh ../../trunk/SCIRunData/torso-defib/ ../../trunk/SCIRunData/torso-defib/torso_segmentation_si.fld
+# ./Run_Defib_Sim_sr5.sh ../../trunk/SCIRunData/torso-defib/ ../../trunk/SCIRunData/torso-defib/torso_segmentation_si.fld
 
 # check for inputs
 if [ -z $2 ]
@@ -37,7 +37,7 @@ export BDLFILE=$l
 export SEGFILE=$2
 
 # run scirun network output files save automatically
-~/software/SCIRun_mine/bin/SCIRun/SCIRun_test -E  defib_simulation_evaluation_II.srn5
+~/software/SCIRun/bin/SCIRun/SCIRun_test -E  defib_simulation_evaluation.srn5
 done
 
 # check for result directory, move ouput files to that directory.
