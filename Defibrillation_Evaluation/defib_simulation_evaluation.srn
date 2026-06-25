@@ -789,7 +789,7 @@ REFINEMENT REGION}</note>
       <note position="{def}" color="{white}">{set conductivity values}</note>
       <var name="rows" val="{12}" substitute="no"/>
       <var name="cols" val="{1}" substitute="no"/>
-      <var name="data" val="{{0 .22 .002 .25 .05 .15 .07 .007 .006 .7 .3 .3}}" substitute="no"/>
+      <var name="data" val="{{0 .22 .002 .25 .05 .15 .07 .067 .006 .7 .3 .3}}" substitute="no"/>
       <var name="clabel" val="{0}" substitute="no"/>
       <var name="rlabel" val="{air torso bowelgas muscle fat liver kidney lung bone blood atria ventricles}" substitute="no"/>
       <var name="ui_geometry" val="{365x440+2198+740}" substitute="no"/>

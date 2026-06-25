@@ -601,7 +601,7 @@
 .05	fat
 .15	liver
 .07	kidney
-.007	lung
+.067	lung
 .006	bone
 .7	blood
 .3	atria
